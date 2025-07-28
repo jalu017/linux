@@ -9,3 +9,6 @@ sudo rm /etc/systemd/system/
 
 # Reload systemd to apply changes
 sudo systemctl daemon-reload
+sudo systemctl daemon-reload
+sudo systemctl enable
+sudo systemctl start 
