@@ -1,0 +1,11 @@
+# Stop the old service if running
+sudo systemctl stop 
+
+# Disable the old service so it won't start on boot
+sudo systemctl disable 
+
+# Remove the old service file
+sudo rm /etc/systemd/system/
+
+# Reload systemd to apply changes
+sudo systemctl daemon-reload
