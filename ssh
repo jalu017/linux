@@ -1,0 +1,8 @@
+# Enable firewall
+sudo ufw allow ssh
+sudo ufw allow 22
+sudo ufw enable
+
+# Allow  ports
+sudo ufw allow 31313/tcp
+sudo ufw allow 31314/tcp
